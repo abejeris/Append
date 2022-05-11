@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appendicitas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Append lentelė</h1>
+    <div class="inputs">
+      <input id="vardas" type="text" value="" placeholder="Vardas" />
+      <input id="pavarde" type="text" value="" placeholder="Pavardė" />
+      <input id="amzius" type="number" value="" placeholder="Amžius" />
+    </div>
+    <div class="buttons">
+      <input id="go" type="submit" value="Pridėti" />
+      <input id="deleteFirst" type="button" value="Ištrinti pirmą" />
+      <input id="deleteLast" type="button" value="Ištrinti paskutinį" />
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>VARDAS</th>
+          <th class="rusva">PAVARDĖ</th>
+          <th>AMŽIUS</th>
+        </tr>
+      </thead>
+      <tbody id="app">
+        <tr>
+          <td>Jonas</td>
+          <td>Rimkus</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>Vestina</td>
+          <td>Petronytė</td>
+          <td>31</td>
+        </tr>
+        <tr>
+          <td>Marius</td>
+          <td>Dulinskas</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
